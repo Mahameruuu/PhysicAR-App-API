@@ -1,0 +1,3 @@
+db :physicla_db
+username : physicla_user
+pw : ioK?~6_5NQKl}3m_
