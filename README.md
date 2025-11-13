@@ -19,8 +19,8 @@ API ini menyediakan layanan untuk aplikasi mobile Flutter, meliputi manajemen da
 ## 🧰 Setup Lingkungan
 
 ### 1️⃣ Clone Repository
-- git clone <repo-laravel-url>
-- cd <repo-folder>
+- git clone "<repo-laravel-url>"
+- cd "<repo-folder>"
 
 2️⃣ Install Dependencies
 ```bash
