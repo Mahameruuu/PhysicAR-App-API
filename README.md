@@ -96,8 +96,7 @@ routes/
 .env
 ```
 
-👨‍💻 Kontributor
+## 👨‍💻 Kontributor
 
-Backend Developer: [M. Mahameru. A]
-
+Backend Developer: [M. Mahameru. A] <br>
 Framework: Laravel
