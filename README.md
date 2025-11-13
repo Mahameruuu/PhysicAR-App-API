@@ -16,72 +16,42 @@ API ini menyediakan layanan untuk aplikasi mobile Flutter, meliputi manajemen da
 
 ---
 
-## 🧱 Arsitektur Teknis
-
-
-+----------------------+
-| START |
-+----------------------+
-|
-v
-+----------------------+
-| Setup Env Laravel |
-+----------------------+
-|
-v
-+----------------------+
-| Develop Backend Logic|
-| (CRUD, Auth, etc.) |
-+----------------------+
-|
-v
-+----------------------+
-| Create Laravel API |
-+----------------------+
-|
-v
-+----------------------+
-| Test API |
-| - If fail → fix |
-| - If pass → continue |
-+----------------------+
-|
-v
-+----------------------+
-| API Ready to Use |
-+----------------------+
-
-
----
-
 ## 🧰 Setup Lingkungan
 
 ### 1️⃣ Clone Repository
-```bash
 git clone <repo-laravel-url>
 cd <repo-folder>
 
 2️⃣ Install Dependencies
+```bash
 composer install
+```
 
 3️⃣ Konfigurasi .env
 
 Salin file contoh dan sesuaikan:
 
-cp .env.example .env
 
+```bash
+cp .env.example .env
+```
 
 Ubah pengaturan database dan APP_URL sesuai server kamu.
 
 4️⃣ Generate Key Aplikasi
+```bash
 php artisan key:generate
+```
 
 5️⃣ Migrasi & Seeder Database
+```bash
 php artisan migrate --seed
+```
 
 6️⃣ Jalankan Server
+```bash
 php artisan serve
-
+```
 
 Akses API di http://localhost:8000
 
@@ -89,13 +59,10 @@ Akses API di http://localhost:8000
 
 Gunakan Postman / Insomnia untuk menguji endpoint:
 
-GET /api/users
-
-POST /api/login
-
-GET /api/data
-
-dan lain-lain
+- GET /api/users
+- POST /api/login
+- GET /api/data
+- dan lain-lain
 
 Jika error, periksa log Laravel di storage/logs/laravel.log.
 
@@ -104,11 +71,11 @@ Jika error, periksa log Laravel di storage/logs/laravel.log.
 Upload project ke server
 
 Jalankan:
-
+```bash
 php artisan config:cache
 php artisan route:cache
 php artisan migrate --force
-
+```
 
 Pastikan permission folder storage dan bootstrap/cache sudah benar.
 
@@ -125,6 +92,6 @@ routes/
 
 👨‍💻 Kontributor
 
-Backend Developer: [Nama Kamu]
+Backend Developer: [M. Mahameru. A]
 
 Framework: Laravel
