@@ -19,8 +19,11 @@ API ini menyediakan layanan untuk aplikasi mobile Flutter, meliputi manajemen da
 ## 🧰 Setup Lingkungan
 
 ### 1️⃣ Clone Repository
-- git clone
-- cd
+
+```bash
+git clone <repo-flutter-url>
+cd <repo-folder>
+```
 
 2️⃣ Install Dependencies
 ```bash
